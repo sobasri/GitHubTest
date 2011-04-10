@@ -2,7 +2,7 @@
 
 int square(int a)
 {
-	if (a<0)
+	if (a<0 || a>180)
 	{
 		return 0;
 	}
@@ -11,7 +11,7 @@ int square(int a)
 
 int cube(int a)
 {
-	if (a<0)
+	if (a<0 || a>31)
 	{
 		return 0;
 	}
