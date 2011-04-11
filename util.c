@@ -9,6 +9,14 @@ int square(int a)
 	return a*a;
 }
 
+double factorial(double a)
+{
+	if (a <= 0 || a > 10)
+	{
+		return 0;
+	}
+}
+
 int cube(int a)
 {
 	if (a<0 || a>31)
@@ -17,3 +25,4 @@ int cube(int a)
 	}
 	return a*a*a;
 }
+
