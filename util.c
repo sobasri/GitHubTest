@@ -9,11 +9,11 @@ int square(int a)
 	return a*a;
 }
 
-double factorial(double a)
+long factorial(long a)
 {
 	if (a <= 0 || a > 10)
 		return 0;
-	double temp;
+	long temp;
 	if( a <= 1 )
 		return 1;
 	temp = a*factorial(a-1);

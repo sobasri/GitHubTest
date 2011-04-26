@@ -4,6 +4,6 @@
 int square(int a);
 int cube(int a);
 
-double factorial(double a);
+long factorial(long a);
 
 #endif /* end of __UTIL_H__ */
