@@ -4,3 +4,5 @@ Git workflow tutorial test project
 Description: 
 
 Version 0.1: This project offers the C functionality to square and cube.
+
+Version 0.2: Skeleton implementation of the Factorial function.
